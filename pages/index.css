@@ -1,0 +1,25 @@
+.body {
+    background-color: #BE0909;
+}
+
+.reck {
+    display: flex;
+    background-color: #BE0909;
+    
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.img__duck {
+
+}
+
+.reck- {
+
+}
