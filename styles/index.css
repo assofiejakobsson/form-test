@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    min-height: 900px;
+    background-color: #9DBEBB;
+}
+
+.reck {
+    display: flex;
+    background-color: #BE0909;
+    max-width: 609px;
+    width: 100%;
+    min-height: 594px;
+    /*Width: 954px;
+    Height: 594px;*/
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 20px;
+
+}
+
+.name {
+    
+    max-width: 400px;
+    width: 100%;
+    min-height: 72px;
+    border-bottom: solid #9DBEBB 1px;
+
+}
+
+.email {
+    Width: 160px;
+    Height: 72px;
+    border-bottom: solid #9DBEBB 1px;
+    margin-top: 5px;
+   
+
+}
+
+.regarding {
+    Width: 213px;
+    Height: 72px;
+    margin-top: 5px;
+    border-bottom: solid #9DBEBB 1px;
+    color: #ffffff;
+    
+
+}
+
+.message {
+    Width: 400px;
+    Height: 72px;
+    margin-top: 5px;
+    border-bottom: solid #9DBEBB 1px;
+}
+
+.btn {
+    justify-content: center;
+    margin-top: 20px;
+    width: 202px;
+    height: 48px;
+    background-color: #468189;
+    border-radius: 40px;
+    color: #ffffff;
+  
+}
+
+.img__duck {
+    display: flex;
+    margin-right: 20px;
+    position: absolute;
+    right: 450px;
+    bottom: -50px;
+    width: 530px;
+    height: 500px;
+
+}
+
+.reck- {
+    display: flex;
+    background-color: #FFB039;
+    Width: 345px;
+    Height: 594px;
+    
+
+}

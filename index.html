@@ -5,23 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/normalize.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="reck">
-        <div class="form">
-            <form action="">
-                <input type="name" placeholder="full name">
-                <input type="email" placeholder="your email">
-                <input type="message regarding" placeholder="message regarding">
-                <input type="message" placeholder="your message">
-                 <button type="send message">send message</button>
-            </form>
-        </div>    
-        <div class="img__duck"></div><img src="images/duck.png" alt="duck" title="yellow plastic duck" >
-    </div>
-    <div class="reck-"></div>
-
+    <section class="container">
+        <div class="reck">
+            <div class="form">
+                <form action="">
+                    <div class="name">
+                       <input type="name" placeholder="full name">
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="your email">
+                    </div>
+                    <div class="regarding">
+                        <input type="message regarding" placeholder="regarding message">
+                    </div>
+                    <div class="message">
+                       <input type="message" placeholder="your message">
+                    </div>
+                    <button class="btn" type="send message">send messege</button>
+                </form>
+            </div> 
+            <div class="reck-">
+                <div class="img__duck">
+                    <img src="images/duck.png" alt="duck" title="yellow plastic duck" >
+                </div>
+            </div>
+        </div>      
+    </section>
 </body>
 </html>
